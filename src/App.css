@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pitch-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.rpm-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.dia-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.vac-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.calculate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculate-btn {
+    background-color: white;
+    font-size: 2rem;
+    border: groove black;
+    border-width: 2px;
+    transition-duration: 0.4s;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+}
+
+.calculate-btn:hover {
+    background-color: rgb(78, 78, 219);
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.sf-div{
+    margin-right: 10%;
+}
+
+#sf{
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+#df{
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.45rem;
+    padding-left: 2rem;
+    background-color: rgb(78, 78, 219);
+    max-height: 4rem;
+}
+
+.static-btn{
+    padding: 2rem;
+    margin-right: 15%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* width: 100%; */
+}
+.dyn-btn{
+    padding: 2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
